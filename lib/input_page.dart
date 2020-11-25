@@ -209,10 +209,10 @@ class _InputPageState extends State<InputPage> {
               padding: EdgeInsets.only(bottom: 20.0),
               width: double.infinity,
               height: 70.0,
-              color: Colors.lightGreen,
+              color: Colors.redAccent,
               child: Center(
                 child: Text(
-                  "Calculate",
+                  "Result",
                   style: kbottemContainerStyle,
                 ),
               ),
@@ -234,7 +234,7 @@ class RoundIconButton extends StatelessWidget {
     return RawMaterialButton(
       onPressed: onPressed,
       child: Icon(icon),
-      elevation: 6.0,
+      elevation: 5.0,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
       fillColor: Colors.lightGreen,
       constraints: BoxConstraints.tightFor(width: 45.0, height: 45.0),
