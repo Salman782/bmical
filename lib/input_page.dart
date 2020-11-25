@@ -205,10 +205,10 @@ class _InputPageState extends State<InputPage> {
                   MaterialPageRoute(builder: (context) => ResultPage()));
             },
             child: Container(
-              margin: EdgeInsets.only(top: 10.0),
-              padding: EdgeInsets.only(bottom: 20.0),
+              margin: EdgeInsets.only(top: 20.0),
+              padding: EdgeInsets.only(bottom: 30.0),
               width: double.infinity,
-              height: 70.0,
+              height: 50,
               color: Colors.redAccent,
               child: Center(
                 child: Text(
