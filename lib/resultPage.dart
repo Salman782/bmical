@@ -50,7 +50,7 @@ class ResultPage extends StatelessWidget {
             ),
           ),
           BottomButton(
-            buttonTitle: 'RE-CALCULATE',
+            buttonTitle: 'Do Again',
             onTap: () {
               Navigator.pop(context);
             },
