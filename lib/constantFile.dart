@@ -14,12 +14,12 @@ const kLabelStyle = TextStyle(
   fontSize: 20.0,
 );
 const kNumberStyle = TextStyle(
-  fontSize: 50.0,
+  fontSize: 30.0,
   fontWeight: FontWeight.w900,
 );
 
 const kTitleTextStyle = TextStyle(
-  fontSize:350.0,
+  fontSize:35.0,
   fontWeight: FontWeight.bold,
 );
 
