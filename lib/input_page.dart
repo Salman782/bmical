@@ -1,8 +1,8 @@
-import 'package:bmi_pratic_for_london/reultPage.dart';
+import 'package:bmi_pratic_for_london/resultPage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'reUseableCardWidgets.dart';
-import 'reuseContainerWidget.dart';
+import 'reUseContainerWidget.dart';
 import 'constantFile.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
